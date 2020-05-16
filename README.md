@@ -1,4 +1,4 @@
-# CIS 581 Project 3A
+# CIS 581 Project Image Stitching
 
 **Team Members:** Arnav Dhamija and Saumya Shah
 
@@ -17,6 +17,23 @@ The code can be divided into the following files:
 * `mymosaic.py`: alpha blends and feathers the images according to the provided homographies.
 
 Images we used can be found in `images/`, and different approaches we experimented with can be found in `variations/`. The `results/` folder has a subfolder for each set of images with intermediate outputs with each step. The `results/`, folder contains the resulting images obtained at each step for each of our images. The `results/shoemaker/` folder contains the results from the images of the Franklin Field.
+
+## Example
+
+Left image:
+
+![skat_left](/images/shoemaker-left.jpg)
+
+Middle image:
+
+![skat_mid](/images/shoemaker-middle.jpg)
+
+Right image:
+
+![skat_right](/images/shoemaker-right.jpg)
+
+### Result
+![skat_result](/results/shoemaker/output.png)
 
 ## Running the Code
 
